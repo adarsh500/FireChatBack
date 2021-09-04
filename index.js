@@ -21,7 +21,7 @@ const httpServer = http.createServer(app);
 
 const io = socketio(httpServer, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://nervous-galileo-d83e06.netlify.app",
   },
 });
 
