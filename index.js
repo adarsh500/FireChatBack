@@ -95,7 +95,7 @@ setInterval(function(){
     payload.push(info);
   })
   io.sockets.emit("active", payload);
-}, 5000);
+}, 2000);
 
 
-httpServer.listen(5000);
+httpServer.listen("https://fireechat.netlify.app");
