@@ -21,7 +21,7 @@ const httpServer = http.createServer(app);
 
 const io = socketio(httpServer, {
   cors: {
-    origin: "*",
+    origin: "https://fireechat.netlify.app",
   },
 });
 
